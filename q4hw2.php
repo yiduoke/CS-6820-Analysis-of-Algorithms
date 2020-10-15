@@ -4,7 +4,7 @@ function construct_town-town_edges(n, d, garbage_information) {
     while day i < d:
       add edge (s,(t,i))
       
-      find the latest possible day j that makes the garbage between day i and day j (inclusive) in town t not exceed 1
+      find the latest possible day j that makes the garbage between day i and day j (inclusive) in town t less than 1
       
       add edge ((t,i), (t,j))
       
